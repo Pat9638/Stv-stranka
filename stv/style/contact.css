@@ -1,0 +1,166 @@
+.contact-bar {
+    display: flex;
+}
+.person {
+    display: flex;
+}
+.machr {
+    background-color: #F6F0CF;
+    width: 15rem;
+    height: 22rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.machr h1,
+.machr h2 {
+    font-family: 'Rubik Gemstones', cursive;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.machr h2 {
+    margin-top: 1rem;
+    color: grey;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.pretodaj {
+    margin: 10px 85px;
+}
+.kontaktu {
+    margin: 0 22px;
+}
+.telefon {
+    background-color: rgb(99, 99, 99);
+    color: white;
+    position: relative;
+    margin-top: 3rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem;
+    cursor: pointer;
+    z-index: 1;
+    width: 15rem;
+    margin-left: -1rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.goodee {
+    cursor: pointer;
+    border-radius: 1rem 1rem 1rem 1rem;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -0.5rem;
+    z-index: 100;
+    height: 5.8rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.machr img {
+    width: 10rem; 
+    border-radius: 10rem;
+    height: 10rem;
+    margin-left: 17.5%;
+    margin-top: 2rem;
+}
+.machr a {
+    text-decoration: none;
+    color: white;
+}
+.machr h1 {
+    font-size: 1.3rem;
+}
+.gtr {
+    margin-top: -3rem;
+    margin-left: 1rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.tutok {
+    width: 13rem;
+    margin: 0 auto;
+}
+
+.reali {
+    display: grid;
+    width: 85%;
+    height: 65%;
+    margin: 0 auto;
+}  
+.photosek1 {
+    display: flex;
+    grid-column: auto;
+    width: 35rem;
+    height: 15rem;
+    border-radius: 1rem;
+    grid-column-start: 1;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-start: 3;
+
+    background-color: azure;
+}
+.ideto {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.photosek2 {
+    display: flex;
+    grid-column: auto;
+    width: 35rem;
+    height: 15rem;
+    border-radius: 1rem;
+    grid-column-start: 3;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    grid-row-start: 3;
+
+    background-color: azure;
+}
+.photosek3 {
+    display: flex;
+    grid-column: auto;
+    width: 35rem;
+    height: 15rem;
+    border-radius: 1rem;
+    grid-column-start: 1;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-start: 6;
+
+    background-color: azure;
+}
+.photosek4 {
+    display: flex;
+    grid-column: auto;
+    width: 35rem;
+    height: 15rem;
+    border-radius: 1rem;
+    grid-column-start: 3;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    grid-row-start: 6;
+
+    background-color: azure;
+}
+.ukazka {
+    width: 9.5rem;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .machr {
+        margin: 50px;
+    }
+    .person {
+        display: block;
+        margin-left: 9%;
+    }
+    .top-link {
+        display: none;
+    }
+    .fixed-nav{
+        display: none;
+    }
+}

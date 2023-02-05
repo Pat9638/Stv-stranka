@@ -1,0 +1,145 @@
+.head {
+    display: flex;
+}
+.linky {
+    display: grid;
+    list-style: none;
+    font-family: 'Rubik Gemstones', cursive;
+    margin-top: -28rem;
+}
+.odk {
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #008037;
+    border-radius: 10rem;
+    padding: 0.4rem 0.4rem;
+    box-shadow: 0px 10px 14px -7px #3e7327;
+	border-radius: 3rem;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#7ed957;
+	font-family:Arial;
+	font-weight:bold;
+	text-shadow:0px 1px 0px #008037;
+    width: 10rem;
+    text-align: center;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.ego {
+    visibility: hidden;
+}
+/* NAV */
+nav {
+    background: var(--clr-white);
+    padding: 1rem 1.5rem;
+}
+/* fixed nav */
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    border-radius: 0;
+    z-index: 150000;
+    background-color: azure;
+    height: 3.5rem;
+    margin-left: -36.5rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.ego-nav {
+    visibility: visible;
+    width: 5rem;
+    margin-left: 3rem;
+}
+.odk:hover {
+    color: #008037;
+    background-color: #7ed957;
+}
+.odk:active {
+    position:relative;
+    top:1px;
+}
+.linky:last-of-type {
+    font-size: 50px;
+}
+.brick {
+    width: 45rem;
+    position: absolute;
+    margin: 12rem -8rem;
+}
+header {
+    min-height: 100vh;
+    z-index: 1;
+    display: flex;
+    
+    
+}
+.uvod {
+    display: block;
+    margin: 25% -15%;
+}
+.onb {
+    border: 3px solid #7ed957;
+    display: block;
+    display: block;
+    margin: 8% -8%;
+    position: absolute;
+    width: 35.35rem;
+    height: 27.5rem;
+}
+.logo {
+    width: 15rem;
+    margin-left: 3rem;
+}
+.left {
+width: 60%;
+}
+.right {
+    background-color: #008037;
+    width: 40%;
+}
+.emot {
+    display: flex;
+    margin: -6rem 25rem;
+    cursor: pointer;
+}
+.demot {
+    font-size: 12rem;
+    color: #7ed957;
+}
+/*
+@media screen 
+*/
+.delete-btn {
+    border: none;
+    border-radius: 0%;
+    background-color: azure;
+    margin-left: 40rem;
+}
+#delete-btn {
+    padding: 0.4rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 20rem;
+        margin: 0 auto;
+    }
+    .onb {
+        visibility: hidden;
+    }
+    .right {
+        visibility: hidden;
+    }
+    .brick {
+        margin-top: 37rem;
+        margin-left: -3rem;
+        width: 25rem;
+    }
+    .linky {
+        font-size: 5rem;
+        margin-left: -32rem;
+    }
+}

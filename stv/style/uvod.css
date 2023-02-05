@@ -1,0 +1,27 @@
+.uprava-zac {
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.pls {
+    display: flex;
+}
+.focus {
+    display: flex;
+    width: 50rem;
+    padding: 60px 168px;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.top-ka {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Gemstones', cursive;
+}
+@media only screen and (max-width: 500px) {
+.focus {
+    font-size: 1.2rem;
+    width: 5rem;
+    display: grid;
+    padding: 50px;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');

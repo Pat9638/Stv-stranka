@@ -1,0 +1,113 @@
+.end-city {
+    height: 20rem;
+    display: grid;
+    background: rgb(33, 33, 33);
+}
+.contain {
+    /*background: blue;*/
+    display: flex;
+    border-top: 2px dashed grey;
+}
+.first {
+    /*background: green;*/
+    height: 18rem;
+    width: 33.33%;
+    color: white;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.ipt {
+    width: 20rem;
+}
+.contacted {
+    margin-top: 2.5rem;
+}
+.second {
+    /*background: yellow;*/
+    height: 18rem;
+    width: 33.34%;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.5;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.tlacidloo {
+    margin-top: 1rem;
+    border-radius: 10rem;
+    padding: 0.3rem 0.3rem;
+    border: 1px solid grey;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.forest {
+    /*background: pink;*/
+    height: 18rem;
+    width: 33.33%;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Gemstones', cursive;
+
+}
+.forest h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.end-photo {
+    border-top: 1px solid white;
+    border-radius: 50%;
+    width: 90%;
+    margin-left: 5%;
+}
+.last-logo {
+    margin-left: 40%;
+}
+.social-media {
+    font-size: 2.5rem;
+    color: white;
+}
+.social-media:first-child {
+    color: grey;
+}
+.social-media:nth-child(2) {
+    color: grey;
+}
+.social-media:last-child {
+    color: grey;
+}
+.soc-med {
+    flex-direction: row;
+    margin-top: 1rem;
+    word-spacing: 1rem;
+}
+@media only screen and (max-width: 500px) {
+    .first {
+        display: none;
+    }
+    .second {
+        width: 100%;
+    }
+    .end-city {
+        display: flex; 
+        height: 40rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .forest {
+        width: 100%;
+    }
+    .contain {
+        display: block;
+    }
+}

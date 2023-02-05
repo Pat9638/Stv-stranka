@@ -1,0 +1,40 @@
+.section {
+    height: 50.5rem;
+}
+.title {
+    background-image: linear-gradient(90deg, #98CD8D 33.33%, #F6F0CF 33.33%, #F6F0CF 50%, #98CD8D 50%, #98CD8D 83.33%, #F6F0CF 83.33%, #F6F0CF 100%);
+    background-size: 120.00px 120.00px;
+    box-shadow: -4px 7px 15px green;
+    width: 100%;
+    height: 3.5rem;
+}
+@media only screen and (max-width: 500px) {
+    .title {
+        width: 100%;
+        height: 3.5rem;
+    
+    }
+}
+.show-links {
+  height: 200px;
+}
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    background: var(--clr-secondary);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius);
+    color: var(--clr-white);
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+.show-link {
+   visibility: visible;
+   z-index: 100;
+}

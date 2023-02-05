@@ -1,0 +1,106 @@
+:root {
+    --transition: all 0.3s linear;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.hl-obr {
+    background-repeat: repeat-y;
+}
+.links-container {
+    display: grid;
+    transition: var(--transition);
+    margin: -2rem 36.5rem;
+    width: 14rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+#uvod {
+    background-image: url("../img/topovka-na-bg.jpg");
+    width: 100%;
+    height: 50rem;
+}
+@media only screen and (max-width: 500px) {
+    #uvod {
+        background-image: url("../img/topovka-na-bg.jpg");
+        width: 100%;
+        height: 70rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #realizacia {
+        background-image: url("../img/topovka-na-bg.jpg");
+        width: 100%;
+        height: 130rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #ponuka {
+        background-image: url("../img/topovka-na-bg.jpg");
+        width: 100%;
+        height: 90rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #Kontakt {
+        background-image: url("../img/topovka-na-bg.jpg");
+        height: 130rem;
+        width: 100%;
+    }
+}
+#realizacia {
+    background-image: url("../img/topovka-na-bg.jpg");
+    font-family: 'Rubik Gemstones', cursive;
+}
+#ponuka {
+    background-image: url("../img/topovka-na-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 170rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+#Kontakt {
+    background-image: url("../img/topovka-na-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 250rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.nadpis2 {
+    margin: 3rem 3rem;
+    background-color: #F6F0CF;
+    width: 12rem;
+    border-radius: 10rem;
+    text-align: center;
+    padding: 0.4rem 0.4rem;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.special-offer {
+    position: sticky;
+    display: grid;
+    margin-top: -263rem;
+    justify-content: center;
+}
+.hide-offer {
+    text-decoration: none;
+    list-style: none;
+    background-color: red;
+    color: white;
+    margin: 0 auto;
+    padding: 3px 8px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.special-bcg {
+    background: #004b0082;
+    position: absolute;
+    width: 1519px;
+    height: 833px;
+    margin-top: -7rem;
+    display: flex;
+}/*
+.hide-ok {
+    overflow: hidden;
+}*/
